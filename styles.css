@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#image {
+    border-radius: 0.5em;
+    border-width: 0.5em;
+    width: 55em;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #8F1116;
+}
+
+#main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     font-family: "Montserrat", sans-serif;
+     margin: 25px;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#title {
+    font-size: 35px;
+    color: #8F1116;
+}
+
+.sub-title {
+    color: #8F1116;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tribute-info {
+    text-indent: 1.5em;
+}
+
+#button {
+    margin-top: 20px;
+
+    font-size: 1.4rem;
+    border-radius: 1.5em;
+    border: none; 
+    background-color: #8F1116;
+    padding: 0.5em;
+   
+}
+
+#tribute-link{
+    padding: 1.5em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+#button > #tribute-link:hover{
+    color: #8F1116;
+}
+
+#link-author {
+    text-decoration: none;
+    color: #8F1116;
+    font-weight: 600;
+}
